@@ -16,7 +16,7 @@
 
 
 <form action='https://crm.zoho.eu/crm/WebToLeadForm' name=WebToLeads174855000000142266 method='POST'
-      onSubmit='javascript:document.charset="UTF-8"; return checkMandatory175018000000142273()' accept-charset='UTF-8'
+      onSubmit='javascript:document.charset="UTF-8"; return checkMandatory174855000000142266()' accept-charset='UTF-8'
       id="zohoForm">
 
     <input type='text' style='display:none;' name='xnQsjsdp'
@@ -52,7 +52,7 @@
 
         function checkMandatory175018000000142273() {
             for (i = 0; i < mndFileds.length; i++) {
-                var fieldObj = document.forms['WebToLeads175018000000142273'][mndFileds[i]];
+                var fieldObj = document.forms['WebToLeads174855000000142266'][mndFileds[i]];
                 if (fieldObj) {
                     if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length == 0) {
                         if (fieldObj.type == 'file') {
@@ -94,10 +94,10 @@
         formType = document.getElementById("idType").value;
         switch (formType) {
             case "first":
-                document.getElementById("idURL").setAttribute("value", "https://firstforma.herokuapp.com/first");
+                document.getElementById("idURL").setAttribute("value", "https://crmtest2.herokuapp.com/first");
                 break;
             case "second":
-                document.getElementById("idURL").setAttribute("value", "https://firstforma.herokuapp.com/second");
+                document.getElementById("idURL").setAttribute("value", "https://crmtest2.herokuapp.com/second");
                 break;
         }
         document.getElementById("zohoForm").submit();
