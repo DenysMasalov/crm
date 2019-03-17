@@ -9,6 +9,5 @@ public class MainController {
     public String getTestPage(){
         return "test";
 
-
     }
 }
