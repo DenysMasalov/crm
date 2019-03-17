@@ -10,4 +10,16 @@ public class MainController {
         return "test";
 
     }
+
+    @GetMapping("/first")
+    public String getFirstSite(){
+
+        return "first";
+    }
+
+    @GetMapping("/second")
+    public String getSecondSite(){
+
+        return "second";
+    }
 }
