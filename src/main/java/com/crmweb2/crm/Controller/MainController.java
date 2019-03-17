@@ -8,5 +8,6 @@ public class MainController {
     @GetMapping
     public String getTestPage(){
         return "test";
+
     }
 }
